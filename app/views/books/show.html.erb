@@ -4,7 +4,6 @@
     <%= render 'layouts/create', book:Book.new, user:@user %>
     <div class='col-md-8 offset-md-1'>
 	    <h2>Book detail</h2>
-	    <!-- 投稿した書籍を作成しましょう。 -->
 	    <table class="table">
 	      <tbody>
         <% if @book.user == current_user %>
